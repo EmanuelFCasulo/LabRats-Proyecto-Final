@@ -1,0 +1,8 @@
+﻿  Funciones.cpp
+C:\Users\Manu\OneDrive - frgp.utn.edu.ar\Proyecto Final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\rlutil.h(577,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Manu\OneDrive - frgp.utn.edu.ar\Proyecto Final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Funciones.cpp(403,17): warning C4101: 'opcion': unreferenced local variable
+C:\Users\Manu\OneDrive - frgp.utn.edu.ar\Proyecto Final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Funciones.cpp(634,21): warning C4101: 'opcion': unreferenced local variable
+C:\Users\Manu\OneDrive - frgp.utn.edu.ar\Proyecto Final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Funciones.cpp(872,17): warning C4101: 'opcion': unreferenced local variable
+C:\Users\Manu\OneDrive - frgp.utn.edu.ar\Proyecto Final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Funciones.cpp(1279,9): warning C4101: 'opcion': unreferenced local variable
+C:\Users\Manu\OneDrive - frgp.utn.edu.ar\Proyecto Final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\Funciones.cpp(1536,9): warning C4101: 'opcion': unreferenced local variable
+  Proyecto final - Ratas de laboratorio.vcxproj -> C:\Users\Manu\OneDrive - frgp.utn.edu.ar\Proyecto Final - Ratas de laboratorio\Proyecto final - Ratas de laboratorio\x64\Debug\Proyecto final - Ratas de laboratorio.exe
