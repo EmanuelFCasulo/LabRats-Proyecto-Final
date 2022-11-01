@@ -37,10 +37,12 @@ void Pedido::cargar(int legajo)
 		char tipoPedido[2];// I = INGRESO STOCK E= EGRESO STOCK C= CANCELADO
 		bool repite = true;
 
-		rlutil::cls();
+		limpiarConsola();
 		rlutil::setColor(rlutil::YELLOW);
-		cout << "CARGA DE PEDIDOS - LAB RATS" << endl;
-		cout << "=======================================================" << endl;
+		ubicar(27, 10);
+		cout << "CARGA DE PEDIDOS - LAB RATS" ;
+		ubicar(27, 11);
+		cout << "=======================================================" ;
 		rlutil::setColor(rlutil::CYAN);
 
 		cargado = false;
@@ -48,12 +50,16 @@ void Pedido::cargar(int legajo)
 		{
 			cin.ignore();
 			rlutil::setColor(rlutil::CYAN);
+			ubicar(27, 12);
 			cout << endl << "Ingrese el tipo de pedido: ";
 			rlutil::setColor(rlutil::WHITE);
 			cin.getline(tipoPedido, 2, '\n');
 			if (strcmp(tipoPedido, "e") != 0 && strcmp(tipoPedido, "i") != 0)
 			{
 				rlutil::setColor(rlutil::RED);
+				ubicar(27, 10);
+				limpiarConsola();
+
 				cout << "Tipo de pedido invalido" << endl;
 				rlutil::setColor(rlutil::CYAN);
 				presioneUnaTecla();
